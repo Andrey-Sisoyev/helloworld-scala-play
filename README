@@ -1,0 +1,5 @@
+This is a branch from https://github.com/playframework/playframework/tree/master/samples/scala/helloworld
+
+I'am using it as a playground to 
+ ** explore Scala language semantic powers
+ ** write a simple trial application with DB, ORM, MVC, AJAX/WebSockets  
