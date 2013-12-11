@@ -1,5 +1,38 @@
-This is a branch from https://github.com/playframework/playframework/tree/master/samples/scala/helloworld
+A playground to explore planned:
+ (1) Scala language semantic powers
+     (1.1) implicit 
+     (1.1.1) implicit casting with implicit parameters
+     (1.1.2) implicit casting with view bounds
+     (1.1.3) implicit value, implicity
+     (1.1.4) evidence object (type parameter extraction?)
+     
+     (1.2) type system     
+     (1.2.1) generics:
+     (1.2.1.1) view bound
+     (1.2.1.2) context bound
+     (1.2.1.3) type constraints
+     (1.2.1.4) covariance, contrvariance
+     (1.2.2) abstract types vs. generics: when abstr wins
+     (1.2.3) this.type (in inheritance)
+     (1.2.4) case classes
+     (1.2.5) private/private[this]
+     (1.2.6) inner class, type projection
+     (1.2.7) forSome (existential types)
 
-I'am using it as a playground to 
- ** explore Scala language semantic powers
- ** write a simple trial application with DB, ORM, MVC, AJAX/WebSockets  
+     (1.3) Enumeration
+     (1.4) object apply
+
+     (1.x) concurrency
+     (1.x.1) Actors
+     (1.x.2) Akka     
+     
+     (1.x) traits
+ (2) write a simple trial application with 
+     (done 2.1) DB, ORM (used Squeryl ORM framework)
+     (done 2.2) MVC     (used Play Web framework)
+     (done 2.3) AJAX    
+     (2.4) WebSockets  
+     (2.5) Advanced assets 
+     (done 2.5.1) Less 
+     (done 2.5.2) CoffeeScript
+     (2.5.3) require

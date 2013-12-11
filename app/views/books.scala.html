@@ -1,0 +1,15 @@
+@(form: play.api.data.Form[models.entity.Book])
+
+@layout("Welcome to Play 2.2") {
+
+    <script src="@routes.Assets.at("javascripts/books.min.js")" type="text/javascript"></script>
+
+    <span id="books"></span>
+
+    @helper.form(action = routes.WCtlBooks.addBook) {
+        @helper.inputText(form("name"))
+        @helper.inputText(form("wordsCount"))
+        <input type="submit"/>
+    }
+
+}
